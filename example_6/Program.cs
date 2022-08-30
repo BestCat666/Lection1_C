@@ -6,11 +6,11 @@ int e = 4;
 
 int maх = a;
 
-if (a > max) maх = a;
-if (b > max) max = b;
-if (c > max) max = c;
-if (d > max) max = d;
-if (e > max) max = e;
+if (a > maх) maх = a;
+if (b > maх) maх = b;
+if (c > maх) maх = c;
+if (d > maх) maх = d;
+if (e > maх) maх = e;
 
-Console.Write("max = ");
+Console.Write("maх = ");
 Console.WriteLine(maх);
